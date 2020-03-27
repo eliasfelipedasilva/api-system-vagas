@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -24,6 +24,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\L4E-12\IdeaProjects\sistema-de-vagas\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="VagasApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -59,37 +65,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1585171978349">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1585245756936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585171978349" />
-    <state width="1323" height="164" key="GridCell.Tab.0.bottom" timestamp="1585174185186">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585245756936" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585241833055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585174185186" />
-    <state width="1323" height="164" key="GridCell.Tab.0.center" timestamp="1585174185186">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585241833055" />
+    <state width="1323" height="316" key="GridCell.Tab.0.bottom" timestamp="1585261951220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.center/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585174185186" />
-    <state width="1323" height="164" key="GridCell.Tab.0.left" timestamp="1585174185186">
+    <state width="1323" height="316" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585261951220" />
+    <state width="1323" height="316" key="GridCell.Tab.0.center" timestamp="1585261951220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.left/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585174185186" />
-    <state width="1323" height="164" key="GridCell.Tab.0.right" timestamp="1585174185186">
+    <state width="1323" height="316" key="GridCell.Tab.0.center/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585261951220" />
+    <state width="1323" height="316" key="GridCell.Tab.0.left" timestamp="1585261951220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="164" key="GridCell.Tab.0.right/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585174185186" />
+    <state width="1323" height="316" key="GridCell.Tab.0.left/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585261951220" />
+    <state width="1323" height="316" key="GridCell.Tab.0.right" timestamp="1585261951220">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="316" key="GridCell.Tab.0.right/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585261951220" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1585139496113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585139496113" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585312055307">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585312055307" />
     <state x="413" y="119" key="extract.method.dialog" timestamp="1585147315694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="extract.method.dialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585147315694" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585147212686">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585233517969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585147212686" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585233517969" />
   </component>
 </project>

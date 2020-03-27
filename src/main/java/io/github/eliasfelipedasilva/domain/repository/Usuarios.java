@@ -12,4 +12,7 @@ public interface Usuarios extends JpaRepository<Usuario, Integer> {
 
     @Query(value = "select u from Usuario u where u.nome like :nome")
     List<Usuario> findByNomeLike(@Param("nome") String nome);
+
+    @Query(value = "Select usuario.nome , vaga.cargo_vaga from usuario join vaga on usuario.vaga_aplicada = vaga.id_vaga where usuario.vaga_aplicada = vaga.id_vaga and vaga.id_vaga = :id_vaga ", nativeQuery = true)
+    List<Object[]> ListarCandidatos(@Param("id_vaga") Integer id_vaga);
 }

@@ -5,6 +5,7 @@ email varchar(100),
 senha varchar(8),
 cargo_atual varchar(50),
 area_atual varchar(50)
+vaga_aplicada integer(8)
 );
 
 create table vagas (
@@ -17,9 +18,3 @@ create table vagas (
   status_vaga varchar(15)
 );
 
-create table aplicadas (
-    id integer primary key AUTO_INCREMENT,
-    cpf_usuario integer references usuario (cpf),
-    id_vaga integer references vagas (id_vaga),
-    data_aplicacao varchar(15)
-);

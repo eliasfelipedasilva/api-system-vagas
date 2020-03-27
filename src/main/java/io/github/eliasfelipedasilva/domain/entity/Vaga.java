@@ -2,13 +2,14 @@ package io.github.eliasfelipedasilva.domain.entity;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "vaga")
 public class Vaga {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_vaga")
     private Integer id_vaga;
 
@@ -30,16 +31,8 @@ public class Vaga {
     @Column(name = "status_vaga")
     private String status_vaga;
 
-//    @OneToMany(mappedBy = "id_vaga")
-//    private List<Aplicada> aplicadas;
 
-//    public List<Aplicada> getAplicadas() {
-//        return aplicadas;
-//    }
-//
-//    public void setAplicadas(List<Aplicada> aplicadas) {
-//        this.aplicadas = aplicadas;
-//    }
+
 
     public Integer getId_vaga() {
         return id_vaga;

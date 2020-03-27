@@ -1,15 +1,18 @@
 package io.github.eliasfelipedasilva.domain.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "usuario")
 public class Usuario {
 
     @Id
-    @Column(name = "cpf")
+    @Column(name = "cpf" , length = 11)
     private Integer cpf;
 
     @Column(name = "nome", length = 120)
@@ -27,28 +30,31 @@ public class Usuario {
     @Column(name = "area_atual", length = 50)
     private String area_atual;
 
-    @OneToMany(mappedBy = "cpf_usuario")
-    private List<Aplicada> aplicadas;
+    @Column(name = "vaga_aplicada", length = 9)
+    private Integer vaga_aplicada;
 
-    public List<Aplicada> getAplicadas() {
-        return aplicadas;
+    public Integer getVaga_aplicada() {
+        return vaga_aplicada;
     }
 
-    public void setAplicadas(List<Aplicada> aplicadas) {
-        this.aplicadas = aplicadas;
+    public void setVaga_aplicada(Integer vaga_aplicada) {
+        this.vaga_aplicada = vaga_aplicada;
     }
 
     public Usuario() {
     }
 
-    public Usuario(Integer cpf, String nome, String email, String senha, String cargo_atual, String area_atual) {
+    public Usuario(Integer cpf, String nome, String email, String senha, String cargo_atual, String area_atual, Integer vaga_aplicada) {
         this.cpf = cpf;
         this.nome = nome;
         this.email = email;
         this.senha = senha;
         this.cargo_atual = cargo_atual;
         this.area_atual = area_atual;
+        this.vaga_aplicada = vaga_aplicada;
     }
+
+
 
     public Usuario(String nome) {
         this.nome = nome;
