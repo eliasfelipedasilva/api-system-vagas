@@ -30,11 +30,13 @@ public class VagaController {
 
     }
 
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Vaga save(@RequestBody Vaga vaga){
         return vagas.save(vaga);
     }
+
 
     @DeleteMapping("{id_vaga}")
     @ResponseStatus(HttpStatus.NO_CONTENT)

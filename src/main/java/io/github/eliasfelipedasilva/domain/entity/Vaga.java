@@ -11,7 +11,7 @@ public class Vaga {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_vaga")
-    private Integer id_vaga;
+    private Long  id_vaga;
 
     @Column(name = "cargo_vaga")
     private String cargo_vaga;
@@ -32,13 +32,11 @@ public class Vaga {
     private String status_vaga;
 
 
-
-
-    public Integer getId_vaga() {
+    public Long getId_vaga() {
         return id_vaga;
     }
 
-    public void setId_vaga(Integer id_vaga) {
+    public void setId_vaga(Long id_vaga) {
         this.id_vaga = id_vaga;
     }
 
