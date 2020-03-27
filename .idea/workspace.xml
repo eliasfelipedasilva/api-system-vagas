@@ -65,38 +65,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1585319323074">
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1585329646051">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585319323074" />
+    <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585329646051" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585241833055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585241833055" />
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1585320248010">
+    <state width="1306" height="163" key="GridCell.Tab.0.bottom" timestamp="1585333694871">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585320248010" />
-    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1585320248009">
+    <state width="1306" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585333694871" />
+    <state width="1306" height="163" key="GridCell.Tab.0.center" timestamp="1585333694870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585320248009" />
-    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1585320248009">
+    <state width="1306" height="163" key="GridCell.Tab.0.center/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585333694870" />
+    <state width="1306" height="163" key="GridCell.Tab.0.left" timestamp="1585333694870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585320248009" />
-    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1585320248010">
+    <state width="1306" height="163" key="GridCell.Tab.0.left/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585333694870" />
+    <state width="1306" height="163" key="GridCell.Tab.0.right" timestamp="1585333694870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585320248010" />
+    <state width="1306" height="163" key="GridCell.Tab.0.right/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585333694870" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1585139496113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585139496113" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585312055307">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585325708172">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585312055307" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585325708172" />
     <state x="413" y="119" key="extract.method.dialog" timestamp="1585147315694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,7 @@
+io\github\eliasfelipedasilva\domain\repository\Vagas.class
+io\github\eliasfelipedasilva\VagasApplication.class
+io\github\eliasfelipedasilva\domain\entity\Usuario.class
+io\github\eliasfelipedasilva\domain\entity\Vaga.class
+io\github\eliasfelipedasilva\rest\controller\UsuarioController.class
+io\github\eliasfelipedasilva\rest\controller\VagaController.class
+io\github\eliasfelipedasilva\domain\repository\Usuarios.class

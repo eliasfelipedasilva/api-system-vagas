@@ -1,0 +1,12 @@
+---
+applications:
+
+  - name: api-system-vagas
+    memory: 1024M
+    timeout: 300
+    random-route: true
+    path: ./target/sistema-de-vagas-1.0-SNAPSHOT.war
+    buildpacks:
+      - sap_java_buildpack
+    env:
+      TARGET_RUNTIME: tomcat

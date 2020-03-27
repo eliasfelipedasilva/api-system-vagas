@@ -30,6 +30,7 @@ public class Usuario {
     @Column(name = "area_atual", length = 50)
     private String area_atual;
 
+    
     @Column(name = "vaga_aplicada", length = 9)
     private Integer vaga_aplicada;
 

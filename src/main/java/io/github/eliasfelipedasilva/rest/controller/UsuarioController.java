@@ -102,14 +102,6 @@ public class UsuarioController {
 
 
 
-    @GetMapping("listar/{id_vaga}")
 
-    public Object[] candidatos(@PathVariable Integer id_vaga){
-
-          return usuarios.ListarCandidatos(id_vaga).toArray();
-
-
-
-    }
 
 }
