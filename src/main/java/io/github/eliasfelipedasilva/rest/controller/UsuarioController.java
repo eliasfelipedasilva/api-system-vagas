@@ -1,28 +1,32 @@
 package io.github.eliasfelipedasilva.rest.controller;
 
 import io.github.eliasfelipedasilva.domain.entity.Usuario;
+import io.github.eliasfelipedasilva.domain.entity.Vaga;
 import io.github.eliasfelipedasilva.domain.repository.Usuarios;
 import io.github.eliasfelipedasilva.domain.repository.Vagas;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import java.util.Collection;
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
 
+    @Autowired
     private Usuarios usuarios;
-    private Vagas vagas;
-
-
 
     public UsuarioController(Usuarios usuarios) {
         this.usuarios = usuarios;
     }
+
+
 
     @GetMapping("/{cpf}")
     public Usuario getUsuarioById(@PathVariable Integer cpf){
@@ -38,6 +42,8 @@ public class UsuarioController {
     public Usuario save(@RequestBody Usuario usuario){
        return usuarios.save(usuario);
     }
+
+
 
     @DeleteMapping("{cpf}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
@@ -99,7 +105,11 @@ public class UsuarioController {
 
     }
 
-
+    @GetMapping("vagas/{id}")
+    public ResponseEntity<Collection<Usuario>> buscaPorVaga(@PathVariable int id){
+        Collection<Usuario> todosUsuarios = usuarios.findByVaga(id);
+        return  new ResponseEntity<>(todosUsuarios, HttpStatus.OK);
+    }
 
 
 

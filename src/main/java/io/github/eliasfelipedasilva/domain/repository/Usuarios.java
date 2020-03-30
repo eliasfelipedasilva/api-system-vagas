@@ -10,7 +10,7 @@ import java.util.List;
 
 public interface Usuarios extends JpaRepository<Usuario, Integer> {
 
-    @Query(value = "select u from Usuario u where u.nome like :nome")
-    List<Usuario> findByNomeLike(@Param("nome") String nome);
+    @Query(value = "SELECT * FROM `usuario` WHERE usuario.vaga_id_vaga = :vaga", nativeQuery = true)
+    List<Usuario> findByVaga(@Param("vaga") Integer vaga);
 
 }

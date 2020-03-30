@@ -30,30 +30,31 @@ public class Usuario {
     @Column(name = "area_atual", length = 50)
     private String area_atual;
 
-    
-    @Column(name = "vaga_aplicada", length = 9)
-    private Integer vaga_aplicada;
+    @ManyToOne
+    private Vaga vaga;
 
-    public Integer getVaga_aplicada() {
-        return vaga_aplicada;
+//    public Usuario(Integer cpf, String nome, String email, String senha, String cargo_atual, String area_atual, Vaga vaga) {
+//        this.cpf = cpf;
+//        this.nome = nome;
+//        this.email = email;
+//        this.senha = senha;
+//        this.cargo_atual = cargo_atual;
+//        this.area_atual = area_atual;
+//        this.vaga = vaga;
+//    }
+
+    public Usuario(){
     }
 
-    public void setVaga_aplicada(Integer vaga_aplicada) {
-        this.vaga_aplicada = vaga_aplicada;
+    public Vaga getVaga() {
+        return vaga;
     }
 
-    public Usuario() {
+    public void setVaga(Vaga vaga) {
+        this.vaga = vaga;
     }
 
-    public Usuario(Integer cpf, String nome, String email, String senha, String cargo_atual, String area_atual, Integer vaga_aplicada) {
-        this.cpf = cpf;
-        this.nome = nome;
-        this.email = email;
-        this.senha = senha;
-        this.cargo_atual = cargo_atual;
-        this.area_atual = area_atual;
-        this.vaga_aplicada = vaga_aplicada;
-    }
+
 
 
 
@@ -118,6 +119,7 @@ public class Usuario {
                 ", senha='" + senha + '\'' +
                 ", cargo_atual='" + cargo_atual + '\'' +
                 ", area_atual='" + area_atual + '\'' +
+                ", vaga=" + vaga +
                 '}';
     }
 }

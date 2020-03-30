@@ -4,6 +4,7 @@ import io.github.eliasfelipedasilva.domain.entity.Usuario;
 import io.github.eliasfelipedasilva.domain.entity.Vaga;
 import io.github.eliasfelipedasilva.domain.repository.Usuarios;
 import io.github.eliasfelipedasilva.domain.repository.Vagas;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.http.HttpStatus;
@@ -14,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/vagas")
 public class VagaController {
-
+    @Autowired
     private Vagas vagas;
 
     public VagaController(Vagas vagas) {
@@ -29,6 +30,7 @@ public class VagaController {
                                 "Vaga nao encontrado"));
 
     }
+
 
 
     @PostMapping
