@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b8ee52f-19bd-416c-b64b-fb144f706547" name="Default Changelist" comment="" />
+    <list default="true" id="4b8ee52f-19bd-416c-b64b-fb144f706547" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/eliasfelipedasilva/domain/entity/Vaga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/eliasfelipedasilva/domain/entity/Vaga.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZcWssFFNBEUKMvOF4Mwu58o07H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
   </component>
@@ -74,26 +82,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585241833055" />
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1585592062858">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1585661939044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="290" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.45.1280.680@-1280.45.1280.680" timestamp="1585580175596" />
-    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585592062858" />
-    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1585592062858">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585661939044" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1585661939044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="290" key="GridCell.Tab.0.center/0.0.1366.728/-1280.45.1280.680@-1280.45.1280.680" timestamp="1585580175596" />
-    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585592062858" />
-    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1585592062858">
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585661939044" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1585661939044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="290" key="GridCell.Tab.0.left/0.0.1366.728/-1280.45.1280.680@-1280.45.1280.680" timestamp="1585580175596" />
-    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585592062858" />
-    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1585592062858">
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585661939044" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1585661939044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1237" height="290" key="GridCell.Tab.0.right/0.0.1366.728/-1280.45.1280.680@-1280.45.1280.680" timestamp="1585580175596" />
-    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585592062858" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585661939044" />
     <state width="1306" height="220" key="GridCell.Tab.1.bottom" timestamp="1585589597032">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -114,10 +122,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585139496113" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585590159760">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585663486906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585590159760" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1280.45.1280.680@0.0.1366.728" timestamp="1585663486906" />
     <state x="413" y="119" key="extract.method.dialog" timestamp="1585147315694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

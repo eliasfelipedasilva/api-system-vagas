@@ -19,6 +19,7 @@ import java.util.List;
 @RequestMapping("/api/usuarios")
 public class UsuarioController {
 
+
     @Autowired
     private Usuarios usuarios;
 
@@ -37,7 +38,7 @@ public class UsuarioController {
 
     }
 
-    @PostMapping
+    @RequestMapping(value="/cadastro", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     public Usuario save(@RequestBody Usuario usuario){
        return usuarios.save(usuario);

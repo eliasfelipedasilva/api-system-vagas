@@ -23,7 +23,7 @@ public class VagaController {
     }
 
     @GetMapping("/{id_vaga}")
-    public Vaga getUsuarioById(@PathVariable Integer id_vaga){
+    public Vaga getVagaByID(@PathVariable Integer id_vaga){
         return vagas.findById(id_vaga)
                 .orElseThrow(()->
                         new ResponseStatusException(HttpStatus.NOT_FOUND,
@@ -31,13 +31,12 @@ public class VagaController {
 
     }
 
-
-
-    @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    public Vaga save(@RequestBody Vaga vaga){
+    @RequestMapping(value="/cadastro", method = RequestMethod.POST)
+    public Vaga save( @RequestBody Vaga vaga) {
         return vagas.save(vaga);
     }
+
+
 
 
     @DeleteMapping("{id_vaga}")

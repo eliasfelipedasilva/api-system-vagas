@@ -4,7 +4,7 @@ nome varchar(120),
 email varchar(100),
 senha varchar(8),
 cargo_atual varchar(50),
-area_atual varchar(50)
+area_atual varchar(50),
 vaga_aplicada integer(8)
 );
 
